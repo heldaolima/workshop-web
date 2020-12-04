@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Aula 3 - Workshop-Web</title>
+    </head>
+
+    <body>
+
+        <p id="teste">Alô, pessoal, não importa o que tem aqui</p>
+
+        <buttom id="btm" style="background-color: green;">
+            Botão verde
+        </buttom>
+
+        <p id="demo"></p>
+        
+        <p class="paragrafo"></p>
+
+        <buttom onclick="document.getElementById('demo').innerHTML = Date()">
+            Clique para ver a data atual
+        </buttom>
+
+        <script>
+            let nome = "karen"
+
+            let quantidade = 2 + 3
+
+            console.log(nome, quantidade)
+
+            document.getElementById('teste').setAttribute("style", "color: green")
+
+            let btm = document.getElementById('btm')
+            
+            btm.addEventListener("click", mudaCorDoFundo)
+
+            function mudaCorDoFundo() {
+                if (btm.style.backgroundColor === "green"){
+                    btm.innerHTML = "Botão Vermelho"
+                    btm.style.backgroundColor = "crimson"
+                } else {
+                    btm.innerHTML = "Botão Verde"
+                    btm.style.backgroundColor = "green"
+                }    
+            }
+
+        </script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,44 @@
+* {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+body {
+    /*background-color: blue;*/
+}
+
+p {
+    color: green;
+    border: 1px solid black;
+}
+
+.espacamento {
+    margin: 10px;
+}
+
+#principal {
+    background-color: rgba(18, 198, 125, 0.5);
+    color: lightcoral;
+    font-weight: bolder;
+    padding: 16px;
+    text-align: right;
+    height: 100px;
+    /*opacity: 0.5;*/
+    /* position: fixed; */
+    /*top: 0;*/
+}
+
+.chave {
+    background-color: blue;
+}
+
+#divMaior {
+    display: flex;
+    font-family:'Courier New', Courier, monospace;    
+    font-size: 25px;
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+
